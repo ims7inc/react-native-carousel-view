@@ -113,8 +113,8 @@ export default class Carousel extends Component {
   }
 
   indicatorPressed(activePage: number) {
-    this.setState({activePage});
-    this.pager.scrollToPage(activePage);
+    // this.setState({activePage});
+    // this.pager.scrollToPage(activePage);
   }
 
   _resetPager(nextProps) {
